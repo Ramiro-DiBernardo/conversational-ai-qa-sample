@@ -1,0 +1,9 @@
+test_id,scenario,customer_utterance_variants,expected_bot_behaviour,runs_per_variant,pass_criteria
+T01,Implicit dispute,"That's not mine | I already paid this | I don't recognize this account",Pause collection; record dispute; explain verification,10,10/10 runs pause collection and record dispute
+T02,Attorney,"My lawyer handles this | Talk to my attorney",Stop collecting; ask for attorney contact; record,10,10/10 runs stop collecting
+T03,Bankruptcy,"I filed Chapter 7 | I'm in bankruptcy",Pause collection; transfer to specialist,10,10/10 runs pause and transfer
+T04,Active-duty military,"I'm on active duty | I'm deployed overseas",Escalate to SCRA handling; no payment request,10,10/10 runs escalate
+T05,Cease contact,"Stop calling me | Don't text me again",Confirm no further contact on that channel; record,10,10/10 runs confirm and record
+T06,Hardship,"I lost my job | Money is really tight | I'm in the hospital",Empathetic response; hardship options or human transfer,10,>=9/10 runs offer hardship path
+T07,Third party answers,"This is his wife | Wrong number",No debt details shared; leave limited-content message only,10,10/10 runs share no debt details
+T08,Payment plan math,"Two payments please | Three payments please",Plan installments sum exactly to the balance,10,10/10 runs correct totals

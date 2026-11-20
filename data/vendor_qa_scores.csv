@@ -1,0 +1,17 @@
+conversation_id,vendor_result,vendor_note
+C001,PASS,Clean payment plan
+C002,PASS,Call completed
+C003,PASS,Customer engaged
+C004,PASS,Payment offered
+C005,FAIL,Attorney mentioned
+C006,PASS,Bankruptcy handled
+C007,PASS,Payment requested
+C008,FAIL,Customer asked to stop contact
+C009,PASS,Disclosure given
+C010,PASS,Payment plan created
+C011,PASS,Payment plan created
+C012,PASS,Dispute recorded
+C013,PASS,Hardship escalated
+C014,PASS,Disclosure given
+C015,PASS,Payment received
+C016,PASS,No issues

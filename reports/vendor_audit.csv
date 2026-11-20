@@ -1,0 +1,17 @@
+conversation_id,vendor_result,our_result,agreement,reason
+C001,PASS,PASS,yes,no findings
+C002,PASS,FAIL,NO - dispute vendor score,third_party_disclosure; identity_before_disclosure; mini_miranda_missing
+C003,PASS,FAIL,NO - dispute vendor score,dispute_not_handled
+C004,PASS,FAIL,NO - dispute vendor score,hardship_not_handled
+C005,FAIL,FAIL,yes,attorney_not_handled
+C006,PASS,PASS,yes,no findings
+C007,PASS,FAIL,NO - dispute vendor score,military_not_handled
+C008,FAIL,FAIL,yes,cease_not_handled
+C009,PASS,FAIL,NO - dispute vendor score,contact_hours
+C010,PASS,FAIL,NO - dispute vendor score,mini_miranda_missing
+C011,PASS,FAIL,NO - dispute vendor score,payment_amount_mismatch
+C012,PASS,PASS,yes,no findings
+C013,PASS,PASS,yes,no findings
+C014,PASS,FAIL,NO - dispute vendor score,false_threat
+C015,PASS,REVIEW,yes,system_not_updated
+C016,PASS,REVIEW,yes,silent_call

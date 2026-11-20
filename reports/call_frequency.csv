@@ -1,0 +1,4 @@
+account,max_attempts_in_7_days,result
+ACC-100,8,FAIL
+ACC-200,3,PASS
+ACC-300,7,PASS

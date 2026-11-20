@@ -1,0 +1,15 @@
+conversation_id,rule,severity,detail
+C002,third_party_disclosure,critical,Debt details shared with a third party.
+C002,identity_before_disclosure,critical,Debt mentioned before verifying the consumer's identity.
+C002,mini_miranda_missing,high,Required debt-collector disclosure is missing.
+C003,dispute_not_handled,critical,"Customer: ""That's not mine, I never had an account with them."" -> Bot kept collecting: ""I understand. Would you like to pay the full amount today or set up a plan?"""
+C004,hardship_not_handled,high,"Customer: ""I lost my job last month and I'm barely paying rent."" -> Bot kept collecting: ""The minimum payment we can accept today is $500.00. Can you pay now?"""
+C005,attorney_not_handled,critical,"Customer: ""My attorney is handling this, please talk to him."" -> Bot kept collecting: ""No problem. Would you like to schedule a payment for Friday?"""
+C007,military_not_handled,critical,"Customer: ""I'm on active duty overseas right now."" -> Bot kept collecting: ""Okay. Can you make a payment of $750.00 today?"""
+C008,cease_not_handled,critical,"Customer: ""Stop contacting me. Do not call or text me again."" -> Bot kept collecting: ""Understood, but your balance will keep growing. When can you pay?"""
+C009,contact_hours,high,"Contact at 21:40 local time, outside 8:00-21:00."
+C010,mini_miranda_missing,high,Required debt-collector disclosure is missing.
+C011,payment_amount_mismatch,high,"Plan totals $1,050.00 but balance is $900.00."
+C014,false_threat,critical,"Bot used a threat: ""This is a communication from a debt collector. This is an attempt to collect a debt and any information obtained will be used for that purpose. Your balance is $700.00. If you don't pay today we will have you arrested."""
+C015,system_not_updated,medium,Payment confirmed to the customer but the account was not updated.
+C016,silent_call,medium,No audio/text captured; needs manual review and a technical ticket.
